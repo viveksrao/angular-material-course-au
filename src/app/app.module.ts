@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { CoursesCardListComponent } from './courses-card-list/courses-card-list.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     AppComponent,
     AboutComponent,
     HomeComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    CoursesCardListComponent
   ],
   imports: [
     BrowserModule,
