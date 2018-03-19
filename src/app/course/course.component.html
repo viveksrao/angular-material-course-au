@@ -2,7 +2,7 @@
   <h2>{{course?.description}}</h2>
   <img [src]="course?.iconUrl" alt="" class="course-thumbnail">
   <mat-input-container>
-    <input matInput placeholder="Search lessons" #input (keyup)="searchLessons(input.value)">
+    <input matInput placeholder="Search lessons" #input>
   </mat-input-container>
   <mat-table class="lessons-table mat-elevation-z8" [dataSource]="dataSource">
     <ng-container matColumnDef="seqNo">
@@ -20,4 +20,5 @@
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
   </mat-table>
+  <mat-paginator [length]="course?.lessonsCount" [pageSize]="3" [pageSizeOptions]="[3, 5, 10]"></mat-paginator>
 </div>
