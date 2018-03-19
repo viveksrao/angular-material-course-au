@@ -25,7 +25,10 @@ export class CoursesCardListComponent implements OnInit {
     dialogConfig.data = {
       description, longDescription, category
     };
-    this.dialog.open(CourseDialogComponent, dialogConfig);
+    const dialogRef = this.dialog.open(CourseDialogComponent, dialogConfig);
+    dialogRef.afterClosed().subscribe(
+      val => console.log("Dialog output:", val)
+    );
   }
 
 }
