@@ -12,6 +12,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTableModule} from '@angular/material/table';
+import {MatInputModule} from '@angular/material/input';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -45,7 +46,8 @@ import { CourseResolver } from './services/course.resolver';
     MatSidenavModule,
     MatListModule,
     MatToolbarModule,
-    MatTableModule
+    MatTableModule,
+    MatInputModule
   ],
   providers: [CoursesService, CourseResolver],
   bootstrap: [AppComponent]
