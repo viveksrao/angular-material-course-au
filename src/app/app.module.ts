@@ -19,6 +19,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSortModule} from '@angular/material/sort';
 import { MatDialogModule } from '@angular/material';
 import {MatSelectModule} from '@angular/material/select';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatMomentDateModule} from "@angular/material-moment-adapter";
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -63,7 +65,9 @@ import { CourseDialogComponent } from './course-dialog/course-dialog.component';
     MatProgressSpinnerModule,
     MatSortModule,
     MatDialogModule,
-    MatSelectModule
+    MatSelectModule,
+    MatDatepickerModule,
+    MatMomentDateModule,
   ],
   providers: [CoursesService, CourseResolver],
   bootstrap: [AppComponent],
