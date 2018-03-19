@@ -18,6 +18,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSortModule} from '@angular/material/sort';
 import { MatDialogModule } from '@angular/material';
+import {MatSelectModule} from '@angular/material/select';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -61,7 +62,8 @@ import { CourseDialogComponent } from './course-dialog/course-dialog.component';
     MatPaginatorModule,
     MatProgressSpinnerModule,
     MatSortModule,
-    MatDialogModule
+    MatDialogModule,
+    MatSelectModule
   ],
   providers: [CoursesService, CourseResolver],
   bootstrap: [AppComponent],
