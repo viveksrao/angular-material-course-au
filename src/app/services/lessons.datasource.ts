@@ -3,6 +3,8 @@ import { Observable } from 'rxjs/Observable';
 import { Lesson } from '../model/lesson';
 import { CoursesService } from './courses.service';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { catchError } from 'rxjs/operators';
+import {of} from "rxjs/observable/of";
 
 
 export class LessonsDatasource implements DataSource<Lesson>{
@@ -14,6 +16,9 @@ export class LessonsDatasource implements DataSource<Lesson>{
 
   loadLessons(courseId: number, filter: string, sortDirection: string, pageIndex: number, pageSize: number){
     this.coursesService.findLessons(courseId, filter, sortDirection, pageIndex, pageSize)
+      .pipe(
+        catchError(() => of([]))
+      )
       .subscribe(lessons => this.lessonsSubject.next(lessons));
   }
 
@@ -21,5 +26,6 @@ export class LessonsDatasource implements DataSource<Lesson>{
     return this.lessonsSubject.asObservable();
   }
   disconnect(collectionViewer: CollectionViewer): void{
+    this.lessonsSubject.complete();
   }
 }

@@ -21,6 +21,7 @@ export class CourseComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     this.course = this.route.snapshot.data["course"];
     this.dataSource = new LessonsDatasource(this.coursesService);
+    this.dataSource.loadLessons(this.course.id, 'hello', 'desc', 0, 3);
   }
 
   ngAfterViewInit() {
