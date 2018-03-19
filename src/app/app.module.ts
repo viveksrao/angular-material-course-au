@@ -16,6 +16,7 @@ import {MatInputModule} from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSortModule} from '@angular/material/sort';
+import { MatDialogModule } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -26,6 +27,8 @@ import { CoursesCardListComponent } from './courses-card-list/courses-card-list.
 import { CourseComponent } from './course/course.component';
 import { CoursesService } from './services/courses.service';
 import { CourseResolver } from './services/course.resolver';
+import { CourseDialogComponent } from './course-dialog/course-dialog.component';
+
 
 
 
@@ -35,7 +38,8 @@ import { CourseResolver } from './services/course.resolver';
     AboutComponent,
     HomeComponent,
     CoursesCardListComponent,
-    CourseComponent
+    CourseComponent,
+    CourseDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -54,9 +58,11 @@ import { CourseResolver } from './services/course.resolver';
     MatInputModule,
     MatPaginatorModule,
     MatProgressSpinnerModule,
-    MatSortModule
+    MatSortModule,
+    MatDialogModule
   ],
   providers: [CoursesService, CourseResolver],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [CourseDialogComponent]
 })
 export class AppModule { }
