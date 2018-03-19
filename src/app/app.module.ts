@@ -13,6 +13,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTableModule} from '@angular/material/table';
 import {MatInputModule} from '@angular/material/input';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -23,6 +24,7 @@ import { CoursesCardListComponent } from './courses-card-list/courses-card-list.
 import { CourseComponent } from './course/course.component';
 import { CoursesService } from './services/courses.service';
 import { CourseResolver } from './services/course.resolver';
+
 
 
 @NgModule({
@@ -47,7 +49,8 @@ import { CourseResolver } from './services/course.resolver';
     MatListModule,
     MatToolbarModule,
     MatTableModule,
-    MatInputModule
+    MatInputModule,
+    MatPaginatorModule
   ],
   providers: [CoursesService, CourseResolver],
   bootstrap: [AppComponent]
