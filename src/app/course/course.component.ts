@@ -22,6 +22,10 @@ export class CourseComponent implements OnInit, AfterViewInit {
     this.coursesService.findAllCourseLessons(this.course.id).subscribe(lessons => this.dataSource.data = lessons);
   }
 
+  searchLessons(search = ''){
+    this.dataSource.filter = search.toLowerCase().trim();
+  }
+
   ngAfterViewInit() {
   }
 
