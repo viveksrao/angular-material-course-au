@@ -1,4 +1,14 @@
 <div class="course">
   <h2>{{course?.description}}</h2>
   <img [src]="course?.iconUrl" alt="" class="course-thumbnail">
+  <mat-table class="lessons-table mat-elevation-z8">
+    <ng-container matColumnDef="seqNo">
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <div *matHeaderCellDef>Description</div>
+      <div *matCellDef></div>
+    </ng-container>
+    <ng-container matColumnDef="duration">
+    </ng-container>
+  </mat-table>
 </div>
