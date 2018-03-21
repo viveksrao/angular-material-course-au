@@ -66,6 +66,15 @@ export const COURSES: any = {
       longDescription: "Build Applications with the official Angular Widget Library",
       category: 'ADVANCED'
   },
+  9: {
+    id:9,
+    description: "Angular Component Communication",
+		iconUrl: "https://pluralsight.imgix.net/course-images/audience/software-development.jpg",
+		courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
+    longDescription: "For real-world Angular applications, you need effective solutions for tracking and sharing state and sending notifications between components. This course teaches you numerous communication techniques and, more importantly, which to use when.",
+		category: 'BEGINNER',
+		lessonsCount: 11
+	},
 };
 
 
@@ -285,7 +294,85 @@ export const LESSONS = {
       "duration": "5:38",
       "seqNo": 8,
       courseId: 3
-  }
+	},
+	// Angular Component Communication
+	30: {
+		id: 30,
+		"description": "Course Overview",
+		"duration": "1:27",
+		"seqNo": 1,
+		courseId: 9
+	},
+	31: {
+		id: 31,
+		"description": "Introduction",
+		"duration": "8:48",
+		"seqNo": 2,
+		courseId: 9
+	},
+	32: {
+		id: 32,
+		"description": "Communicating with a Template",
+		"duration": "20:35",
+		"seqNo": 3,
+		courseId: 9
+	},
+	33: {
+		id: 33,
+		"description": "ViewChild and ViewChildren",
+		"duration": "33:9",
+		"seqNo": 4,
+		courseId: 9
+	},
+	34: {
+		id: 34,
+		"description": "Communicating with a Child Component",
+		"duration": "34:48",
+		"seqNo": 5,
+		courseId: 9
+	},
+	35: {
+		id: 35,
+		"description": "Communicating with a Parent Component",
+		"duration": "10:29",
+		"seqNo": 6,
+		courseId: 9
+	},
+	36: {
+		id: 36,
+		"description": "Communicating Through a Service",
+		"duration": "25:16",
+		"seqNo": 7,
+		courseId: 9
+	},
+	37: {
+		id: 37,
+		"description": "Communicating Through a State Management Service",
+		"duration": "38:54",
+		"seqNo": 8,
+		courseId: 9
+	},
+	38: {
+		id: 38,
+		"description": "Communicating Through Service Notifications",
+		"duration": "28:7",
+		"seqNo": 9,
+		courseId: 9
+	},
+	39: {
+		id: 39,
+		"description": "Communicating Using the Router",
+		"duration": "12:58",
+		"seqNo": 10,
+		courseId: 9
+	},
+	40: {
+		id: 40,
+		"description": "Final Words",
+		"duration": "5:22",
+		"seqNo": 11,
+		courseId: 9
+	},
 
 };
 
