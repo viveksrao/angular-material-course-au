@@ -74,7 +74,16 @@ export const COURSES: any = {
     longDescription: "For real-world Angular applications, you need effective solutions for tracking and sharing state and sending notifications between components. This course teaches you numerous communication techniques and, more importantly, which to use when.",
 		category: 'BEGINNER',
 		lessonsCount: 11
-	},
+    },
+	10:{
+		id:10,
+    description: "This Is Bootstrap 4",
+		iconUrl: "https://thumbsplus.tutsplus.com/uploads/users/71/courses/1163/preview_image/This_is_Bootstrap_4_400x277px.jpg",
+		courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
+    longDescription: "Bootstrap is one of the most popular front-end frameworks for web designers, and its eagerly awaited version 4 just launched! In this course, which was originally recorded as a live stream, Adi Purdila will build a responsive landing page while discussing what’s new, what’s improved, and how to get things up and running. He'll also answer some questions from the viewers along the way.",
+		category: 'BEGINNER',
+		lessonsCount: 6
+	}
 };
 
 
@@ -373,7 +382,49 @@ export const LESSONS = {
 		"seqNo": 11,
 		courseId: 9
 	},
-
+	// This Is Bootstrap 4
+	41: {
+		id: 41,
+		"description": "Welcome to the Course",
+		"duration": "00:38",
+		"seqNo": 1,
+		courseId: 10
+	},
+	42: {
+		id: 42,
+		"description": "Setting Things Up",
+		"duration": "15:45",
+		"seqNo": 2,
+		courseId: 10
+	},
+	43: {
+		id: 43,
+		"description": "Features, Secondary CTA, and Pricing",
+		"duration": "14:16",
+		"seqNo": 3,
+		courseId: 10
+	},
+	44: {
+		id: 44,
+		"description": "Testimonials, Bottom CTA, and Footer",
+		"duration": "12:19",
+		"seqNo": 4,
+		courseId: 10
+	},
+	45: {
+		id: 45,
+		"description": "Create Better Element Spacing",
+		"duration": "19:27",
+		"seqNo": 5,
+		courseId: 10
+	},
+	46: {
+		id: 46,
+		"description": "Responsive Check, Custom Styling, and Finishing Touches",
+		"duration": "20:41",
+		"seqNo": 6,
+		courseId: 10
+	},
 };
 
 export function findCourseById(courseId:number) {
