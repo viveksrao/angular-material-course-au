@@ -83,7 +83,16 @@ export const COURSES: any = {
     longDescription: "Bootstrap is one of the most popular front-end frameworks for web designers, and its eagerly awaited version 4 just launched! In this course, which was originally recorded as a live stream, Adi Purdila will build a responsive landing page while discussing what’s new, what’s improved, and how to get things up and running. He'll also answer some questions from the viewers along the way.",
 		category: 'BEGINNER',
 		lessonsCount: 6
-	}
+  },
+  11:{
+    id: 11,
+    description: "Building Web Applications with Node.js and Express",
+    iconUrl: "https://pluralsight.imgix.net/course-images/nodejs-express-web-applications-update-v2.png",
+    courseListIcon: "https://pluralsight-res.cloudinary.com/image/upload/w_380/pluralsight-static/course-images/play-by-play-packaging-deploying-real-world-asp-dont-net-core-app-v1.jpg",
+    longDescription: "Node.js is a simple and powerful tool for backend JavaScript development. In this course, Building Web Applications with Node.js and Express 4.0, you will learn everything you need to know to get started in web development with Node.js. First, you will cover the basics of Node.js and how to select an IDE. Second, you will explore template engines and how to render in HTML out of Express. Next, you will learn all aspects of routing, including express middleware. Finally, you will work with multiple databases and backend APIs and will cover local security with Passport.js. By the end of this course, you will have all of the tools you need to build a full-stack web application with Node.js and Express. ",
+    category: 'ADVANCED',
+    lessonsCount: 9
+  },
 };
 
 
@@ -424,6 +433,69 @@ export const LESSONS = {
 		"duration": "20:41",
 		"seqNo": 6,
 		courseId: 10
+  },
+  47: {
+		id: 47,
+		"description": "Course Overview",
+		"duration": "1:43",
+		"seqNo": 1,
+		courseId: 11
+  },
+  48: {
+		id: 48,
+		"description": "Getting Started",
+		"duration": "34:12",
+		"seqNo": 2,
+		courseId: 11
+  },
+  49: {
+		id: 49,
+		"description": "First Page",
+		"duration": "38:24",
+		"seqNo": 3,
+		courseId: 11
+  },
+  50: {
+		id: 50,
+		"description": "Setting up Tooling",
+		"duration": "35:54",
+		"seqNo": 4,
+		courseId: 11
+  },
+  51: {
+		id: 51,
+		"description": "Templating Engines",
+		"duration": "25:9",
+		"seqNo": 5,
+		courseId: 11
+  },
+  52: {
+		id: 52,
+		"description": "Routing",
+		"duration": "31:57",
+		"seqNo": 6,
+		courseId: 11
+  },
+  53: {
+		id: 53,
+		"description": "Databases",
+		"duration": "60:5",
+		"seqNo": 7,
+		courseId: 11
+  },
+  54: {
+		id: 54,
+		"description": "Authentication",
+		"duration": "52:58",
+		"seqNo": 8,
+		courseId: 11
+  },
+  55: {
+		id: 55,
+		"description": "Structure and Third-party APIs",
+		"duration": "26:58",
+		"seqNo": 9,
+		courseId: 11
 	},
 };
 
