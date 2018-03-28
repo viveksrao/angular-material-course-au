@@ -83,6 +83,15 @@ export const COURSES: any = {
     longDescription: "Bootstrap is one of the most popular front-end frameworks for web designers, and its eagerly awaited version 4 just launched! In this course, which was originally recorded as a live stream, Adi Purdila will build a responsive landing page while discussing what’s new, what’s improved, and how to get things up and running. He'll also answer some questions from the viewers along the way.",
 		category: 'BEGINNER',
 		lessonsCount: 6
+	},
+	11:{
+		id: 11,
+		description: "Building UIs with the Web Animations API",
+		iconUrl: "https://pluralsight.imgix.net/course-images/web-animations-api-building-uis-v1.png",
+		courseListIcon: "https://pluralsight.imgix.net/course-images/web-animations-api-building-uis-v1.png",
+		longDescription: "Animation is essential for creating top-notch user experiences, but it’s difficult to create complex animations that perform smoothly. In this course, Building UIs with the Web Animations API, you'll learn how to use JavaScript to create complex and efficient web animations. First, you’ll explore some best practices for creating animations in any web app. Next, you’ll use this knowledge to examine how the Web Animations API allows developers to unlock the browser’s animation engine to create performant animations in JavaScript without CSS or third-party libraries. Finally, you'll discover how to use the Web Animations API and Custom Elements to build two UI components that use animations to create an enjoyable experience for the user. When you've finished this course, you'll know how to use the Web Animations API to effortlessly create sophisticated animations that work great even on low powered devices.",
+		category: 'BEGINNER',
+		lessonsCount: 6
 	}
 };
 
@@ -424,6 +433,49 @@ export const LESSONS = {
 		"duration": "20:41",
 		"seqNo": 6,
 		courseId: 10
+	},
+	// Building UIs with the Web Animations API
+	47: {
+		id: 47,
+		"description": "Course Overview",
+		"duration": "1:20",
+		"seqNo": 1,
+		courseId: 11
+	},
+	48: {
+		id: 48,
+		"description": "Introduction",
+		"duration": "13:43",
+		"seqNo": 2,
+		courseId: 11
+	},
+	49: {
+		id: 49,
+		"description": "The Basics of Animation on the Web",
+		"duration": "28:0",
+		"seqNo": 3,
+		courseId: 11
+	},
+	50: {
+		id: 50,
+		"description": "Web Animations API in Depth",
+		"duration": "36:53",
+		"seqNo": 4,
+		courseId: 11
+	},
+	51: {
+		id: 51,
+		"description": "Creating an Animated Search Input",
+		"duration": "40:1",
+		"seqNo": 5,
+		courseId: 11
+	},
+	52: {
+		id: 52,
+		"description": "Creating an Animated Share Button",
+		"duration": "41:25",
+		"seqNo": 6,
+		courseId: 11
 	},
 };
 
