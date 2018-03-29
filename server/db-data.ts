@@ -92,7 +92,16 @@ export const COURSES: any = {
     longDescription: "Node.js is a simple and powerful tool for backend JavaScript development. In this course, Building Web Applications with Node.js and Express 4.0, you will learn everything you need to know to get started in web development with Node.js. First, you will cover the basics of Node.js and how to select an IDE. Second, you will explore template engines and how to render in HTML out of Express. Next, you will learn all aspects of routing, including express middleware. Finally, you will work with multiple databases and backend APIs and will cover local security with Passport.js. By the end of this course, you will have all of the tools you need to build a full-stack web application with Node.js and Express. ",
     category: 'ADVANCED',
     lessonsCount: 9
-  },
+	},
+	12:{
+		id: 12,
+		description: "Building UIs with the Web Animations API",
+		iconUrl: "https://pluralsight.imgix.net/course-images/web-animations-api-building-uis-v1.png",
+		courseListIcon: "https://pluralsight.imgix.net/course-images/web-animations-api-building-uis-v1.png",
+		longDescription: "Animation is essential for creating top-notch user experiences, but it’s difficult to create complex animations that perform smoothly. In this course, Building UIs with the Web Animations API, you'll learn how to use JavaScript to create complex and efficient web animations. First, you’ll explore some best practices for creating animations in any web app. Next, you’ll use this knowledge to examine how the Web Animations API allows developers to unlock the browser’s animation engine to create performant animations in JavaScript without CSS or third-party libraries. Finally, you'll discover how to use the Web Animations API and Custom Elements to build two UI components that use animations to create an enjoyable experience for the user. When you've finished this course, you'll know how to use the Web Animations API to effortlessly create sophisticated animations that work great even on low powered devices.",
+		category: 'BEGINNER',
+		lessonsCount: 6
+	}
 };
 
 
@@ -496,6 +505,49 @@ export const LESSONS = {
 		"duration": "26:58",
 		"seqNo": 9,
 		courseId: 11
+	},
+	// Building UIs with the Web Animations API
+56: {
+		id: 56,
+		"description": "Course Overview",
+		"duration": "1:20",
+		"seqNo": 1,
+		courseId: 12
+	},
+	57: {
+		id: 57,
+		"description": "Introduction",
+		"duration": "13:43",
+		"seqNo": 2,
+		courseId: 12
+	},
+	58: {
+		id: 58,
+		"description": "The Basics of Animation on the Web",
+		"duration": "28:0",
+		"seqNo": 3,
+		courseId: 12
+	},
+	59: {
+		id: 59,
+		"description": "Web Animations API in Depth",
+		"duration": "36:53",
+		"seqNo": 4,
+		courseId: 12
+	},
+	60: {
+		id: 60,
+		"description": "Creating an Animated Search Input",
+		"duration": "40:1",
+		"seqNo": 5,
+		courseId: 12
+	},
+	61: {
+		id: 61,
+		"description": "Creating an Animated Share Button",
+		"duration": "41:25",
+		"seqNo": 6,
+		courseId: 12
 	},
 };
 
