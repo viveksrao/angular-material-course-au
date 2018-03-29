@@ -84,8 +84,8 @@ export const COURSES: any = {
 		category: 'BEGINNER',
 		lessonsCount: 6
 	},
-	11:{
-		id: 11,
+	12:{
+		id: 12,
 		description: "Building UIs with the Web Animations API",
 		iconUrl: "https://pluralsight.imgix.net/course-images/web-animations-api-building-uis-v1.png",
 		courseListIcon: "https://pluralsight.imgix.net/course-images/web-animations-api-building-uis-v1.png",
@@ -440,42 +440,42 @@ export const LESSONS = {
 		"description": "Course Overview",
 		"duration": "1:20",
 		"seqNo": 1,
-		courseId: 11
+		courseId: 12
 	},
 	48: {
 		id: 48,
 		"description": "Introduction",
 		"duration": "13:43",
 		"seqNo": 2,
-		courseId: 11
+		courseId: 12
 	},
 	49: {
 		id: 49,
 		"description": "The Basics of Animation on the Web",
 		"duration": "28:0",
 		"seqNo": 3,
-		courseId: 11
+		courseId: 12
 	},
 	50: {
 		id: 50,
 		"description": "Web Animations API in Depth",
 		"duration": "36:53",
 		"seqNo": 4,
-		courseId: 11
+		courseId: 12
 	},
 	51: {
 		id: 51,
 		"description": "Creating an Animated Search Input",
 		"duration": "40:1",
 		"seqNo": 5,
-		courseId: 11
+		courseId: 12
 	},
 	52: {
 		id: 52,
 		"description": "Creating an Animated Share Button",
 		"duration": "41:25",
 		"seqNo": 6,
-		courseId: 11
+		courseId: 12
 	},
 };
 
