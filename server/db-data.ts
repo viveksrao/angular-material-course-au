@@ -101,7 +101,16 @@ export const COURSES: any = {
 		longDescription: "Animation is essential for creating top-notch user experiences, but it’s difficult to create complex animations that perform smoothly. In this course, Building UIs with the Web Animations API, you'll learn how to use JavaScript to create complex and efficient web animations. First, you’ll explore some best practices for creating animations in any web app. Next, you’ll use this knowledge to examine how the Web Animations API allows developers to unlock the browser’s animation engine to create performant animations in JavaScript without CSS or third-party libraries. Finally, you'll discover how to use the Web Animations API and Custom Elements to build two UI components that use animations to create an enjoyable experience for the user. When you've finished this course, you'll know how to use the Web Animations API to effortlessly create sophisticated animations that work great even on low powered devices.",
 		category: 'BEGINNER',
 		lessonsCount: 6
-	}
+    },
+    13:{
+        id: 13,
+        description: "Four Bootstrap 4 Projects",
+        iconUrl: "https://thumbsplus.tutsplus.com/uploads/users/71/courses/1164/preview_image/four-bootstrap-4-projects-400x277.jpg?height=300&width=300",
+        courseListIcon: "https://thumbsplus.tutsplus.com/uploads/users/71/courses/1164/preview_image/four-bootstrap-4-projects-400x277.jpg?height=300&width=300",
+        longDescription: "In this project-based course, you will learn how to customize Bootstrap 4 as you create four practical web projects using the most recent version of the Bootstrap framework.",
+        category: 'BEGINNER',
+        lessonsCount: 7
+    }
 };
 
 
@@ -548,7 +557,57 @@ export const LESSONS = {
 		"duration": "41:25",
 		"seqNo": 6,
 		courseId: 12
-	},
+    },
+    // Four Bootstrap 4 Projects
+    62: {
+		id: 62,
+		"description": "Welcome to the Course",
+		"duration": "00:33",
+		"seqNo": 1,
+		courseId: 13
+    },
+    63: {
+		id: 63,
+		"description": "Building a Product Page",
+		"duration": "07:09",
+		"seqNo": 2,
+		courseId: 13
+    },
+    64: {
+		id: 64,
+		"description": "Styling the Product Page",
+		"duration": "07:07",
+		"seqNo": 3,
+		courseId: 13
+    },
+    65: {
+		id: 65,
+		"description": "Masonry Images",
+		"duration": "11:35",
+		"seqNo": 4,
+		courseId: 13
+    },
+    66: {
+		id: 66,
+		"description": "Customizing Carousels",
+		"duration": "12:05",
+		"seqNo": 5,
+		courseId: 13
+    },
+    67: {
+		id: 67,
+		"description": "Flipping Cards",
+		"duration": "12:12",
+		"seqNo": 6,
+		courseId: 13
+    },
+    68: {
+		id: 68,
+		"description": "Final Thoughts",
+		"duration": "00:30",
+		"seqNo": 7,
+		courseId: 13
+    },
 };
 
 export function findCourseById(courseId:number) {
