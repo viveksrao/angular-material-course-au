@@ -1,3 +1,5 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 .author-card-container{
 	display: flex;
 	justify-content: space-between;
@@ -30,4 +32,27 @@
 }
 .mat-card-header .mat-card-title{
 	font-size: 20px;
+}
+
+.author-social-links{
+	list-style: none;
+	padding-left: 18px;
+}
+.author-social-links li{
+	display: inline-block;
+}
+
+.author-social-links li a{
+	text-decoration: none;
+	background-color:#3dc046;
+	height: 30px;
+	width: 30px;
+	display: block;
+	color: #FFF;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+}
+.author-social-links li a:hover{
+	background-color: #5aca61;
 }

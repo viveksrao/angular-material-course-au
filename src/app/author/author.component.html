@@ -9,8 +9,12 @@
         <p>{{author.bio}}</p>
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
+        <ul class="author-social-links" *ngFor="let socialLink of author.socialLinks;let i = index;">
+          <li *ngIf="!author.socialLinks[i]['facebook'] == ''"><a href="{{socialLink.facebook}}" target="_blank" class="fa fa-facebook"></a></li>
+          <li *ngIf="!author.socialLinks[i]['twitter'] == ''"><a href="{{socialLink.twitter}}" target="_blank" class="fa fa-twitter"></a></li>
+          <li *ngIf="!author.socialLinks[i]['linkedin'] == ''"><a href="{{socialLink.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+          <li *ngIf="!author.socialLinks[i]['blog'] == ''"><a href="{{socialLink.blog}}" target="_blank" class="fa fa-link"></a></li>
+        </ul>
       </mat-card-actions>
     </mat-card>
   </div>
