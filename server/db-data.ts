@@ -1,5 +1,4 @@
 export const COURSES: any = {
-
   1: {
       id: 1,
       description: "Angular for Beginners",
@@ -112,7 +111,6 @@ export const COURSES: any = {
         lessonsCount: 7
     }
 };
-
 
 export const LESSONS = {
   1: {
@@ -597,6 +595,63 @@ export const LESSONS = {
 		"seqNo": 7,
 		courseId: 13
 	},
+};
+
+export const AUTHORS: any = {
+	1:{
+		id: 1,
+		name: "Deborah Kurata",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/deborah-kurata-v1.jpg",
+		bio: "Deborah Kurata is a software developer, consultant, conference speaker, and Pluralsight author. For her work in support of software developers, she has been recognized with the Microsoft Most Valuable Professional (MVP) award and is a Google Developer Expert (GDE). Deborah focuses on Angular, TypeScript, C#, and Microsoft .NET technologies. She has authored several books, including the \"Doing Objects\" series (Addison-Wesley). Follow her on twitter: @deborahkurata."
+	},
+	2:{
+		id: 2,
+		name: "Daniel Stern",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/daniel-stern-v2.jpg",
+		bio: "Daniel Stern is a coder, web developer and programming enthusiast from Toronto, Ontario, where he works as a freelance developer and designer. Daniel has been working with web technologies since the days of the dial-up, and is especially keen on JavaScript, CSS, Angular, React and TypeScript. Over the course of his work as an open-source developer, he's created many community-standards web tools including Angular Audio and Range.CSS. His tool, Range.CSS, was featured in a guest article on CSS-Tricks.com and in CSS Weekly. Daniel also shares his knowledge through speaking, such as in London, England at Full Stack Conf 2014 where he presented a talk on Web Audio and Angular best practices. Videos of Daniel speaking have been featured in such publications as JavaScript Weekly. Daniel lives in Toronto, Ontario and enjoys making electronic music and reading Game of Thrones during the rare times when he isn't writing code."
+	},
+	3:{
+		id: 3,
+		name: "Duncan Hunter",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/0cddb5dc-69b6-4237-a925-a3834159df3e.jpg",
+		bio: "Duncan Hunter loves working in awesome teams to make awesome software. He works for SSW as a Software Architect based in Brisbane Australia. Duncan spends most of his time building enterprise web applications on top of Angular and ASP.NET. He is also a mentor at firebootcamp.com where he helps get developers up to speed with Angular and frontend best practices. He made a career change from being an Accredited Practising Dietitian to Software Architect after founding foodzone.com.au and falling in love with web development. If Duncan is not making or teaching software he will likely be climbing a cliff some where around the globe. With ascents of some of the tallest rocks in the world from Yosemite's El Capitan to Himalayan big walls in Pakistan."
+	},
+	4:{
+		id: 4,
+		name: "Ajden Towfeek",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/ajden-towfeek-v1.jpg",
+		bio: "Ajden has worked on everything from embedded devices to large-scale enterprise systems during his 10+ years in commercial software development. Since 2007, Ajden has focused on Microsoft technologies and more lately on web technologies. Ajden is also a speaker at conferences and has a passion for teaching. For screencasts on the latest web technology, make sure to check out his YouTube channel."
+	},
+	5:{
+		id: 5,
+		name: "Cory House",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/cory-house-v3.jpg",
+		bio: "Cory is an independent consultant with over 15 years of experience in software development. He is the principal consultant at reactjsconsulting.com and a Microsoft MVP. As a software architect at Cox Automotive, Cory creates web applications for the automotive industry using C#, .NET, Node, and JavaScript. Cory has trained over 10,000 software developers at conferences and businesses worldwide on clean coding practices, front-end development, testing, and software architecture. He speaks regularly at conferences like NDC, Fluent, and Codemash. Cory lives in Kansas City where he blogs at bitnative.com and is active on Twitter as @housecor."
+	},
+	6:{
+		id: 6,
+		name: "Paul D. Sheriff",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/a4d1169c-fd62-46ea-9e46-e7ae41428f04.jpeg",
+		bio: "Paul is a Business Solutions Architect for Fairway Technologies. Fairway is a premier provider of expert technology consulting and software development services, helping leading firms convert requirements into top-quality results. Fairway’s unique business model successfully delivers the high-end technology resources needed to solve tough problems, without the frustration and costly overhead typically associated with large enterprise or staffing agencies. Contact Paul at psheriff@fairwaytech.com. Follow Paul at @pdsainc and facebook.com/PDSApaulsheriff."
+	},
+	7:{
+		id: 7,
+		name: "Jonathan Mills",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/jonathan-mills-v2.jpg",
+		bio: "Jonathan Mills is a JavaScript and Node.js expert working mostly in the MEAN Stack with individuals and companies to help build their technical skills to cope with the constantly changing landscape of software development. He is also an ASP.NET insider and an international speaker focusing on JavaScript both in the browser and on the server."
+	},
+	8:{
+		id: 8,
+		name: "Gary Simon",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/gary-simon-v1.jpg",
+		bio: "Gary Simon has worked exclusively as a freelance designer and design instructor for over 15 years. Having worked with a large clientele on many identity and web design projects, Gary has a solid understanding of many technologies and skills surrounding the design and development industry."
+	},
+	9:{
+		id: 9,
+		name: "Sarah Drasner",
+		profileImgUrl: "https://pluralsight.imgix.net/author/lg/6f77d113-ea36-4592-814d-9d4acb32f231.jpg",
+		bio: "Sarah is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. She is also the co-founder of Web Animation Workshops, with Val Head. She's the author of SVG Animations from O'Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow)."
+	}
 };
 
 export function findCourseById(courseId:number) {
