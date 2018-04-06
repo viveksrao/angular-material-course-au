@@ -17,7 +17,7 @@ import {MatInputModule} from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSortModule} from '@angular/material/sort';
-import { MatDialogModule } from '@angular/material';
+import { MatDialogModule } from '@angular/material/dialog';
 import {MatSelectModule} from '@angular/material/select';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatMomentDateModule} from "@angular/material-moment-adapter";
@@ -32,6 +32,8 @@ import { CourseComponent } from './course/course.component';
 import { CoursesService } from './services/courses.service';
 import { CourseResolver } from './services/course.resolver';
 import { CourseDialogComponent } from './course-dialog/course-dialog.component';
+import { AuthorComponent } from './author/author.component';
+import { AuthorsService } from './services/authors.service';
 
 
 
@@ -43,7 +45,8 @@ import { CourseDialogComponent } from './course-dialog/course-dialog.component';
     HomeComponent,
     CoursesCardListComponent,
     CourseComponent,
-    CourseDialogComponent
+    CourseDialogComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule,
@@ -67,10 +70,10 @@ import { CourseDialogComponent } from './course-dialog/course-dialog.component';
     MatDialogModule,
     MatSelectModule,
     MatDatepickerModule,
-    MatMomentDateModule,
+    MatMomentDateModule
   ],
-  providers: [CoursesService, CourseResolver],
+  providers: [CoursesService, CourseResolver, AuthorsService],
   bootstrap: [AppComponent],
-  entryComponents: [CourseDialogComponent]
+  entryComponents: [CourseDialogComponent],
 })
 export class AppModule { }
