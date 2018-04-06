@@ -1,0 +1,33 @@
+.author-card-container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 0 auto;
+}
+.author-cards{
+	display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 1.5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.author-card {
+	max-width: 320px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.mat-card-image{
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 0;
+}
+.mat-card-header .mat-card-title{
+	font-size: 20px;
+}
