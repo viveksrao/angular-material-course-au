@@ -56,3 +56,30 @@
 .author-social-links li a:hover{
 	background-color: #5aca61;
 }
+
+@media only screen and (max-width:1199.99px){
+  .author-card-container{
+    width: 992px;
+  }
+  .author-card{
+      max-width: 410px;
+  }
+}
+
+@media only screen and (max-width:991.99px){
+  .author-card-container{
+    width: 767px;
+  }
+  .author-card{
+      max-width: 300px;
+  }
+}
+
+@media only screen and (max-width:766.99px){
+  .author-card-container{
+    width: 100%;
+  }
+  .author-card{
+      max-width: 100%;;
+  }
+}
